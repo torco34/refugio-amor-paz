@@ -10031,8 +10031,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-search-results-live .search-title a:hover {
   color: #acd25f;
 }
-
-.rd-search-results-live .search-list-item-all {
+.rd-form .rd-search-results-live .search-list-item-all {
   margin-top: 18px;
   width: 100%;
 }

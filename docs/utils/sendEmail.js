@@ -7,7 +7,7 @@ const sendEmail = (to, from, subject, text) => {
     to,
     from,
     subject,
-    text,
+    html: text,
   };
   sgMail.send(msg, function (err, result) {
     if (err) {
